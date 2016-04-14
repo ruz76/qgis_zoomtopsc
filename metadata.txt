@@ -26,7 +26,7 @@ tags=postcode, opendata, Czech republic
 
 homepage=
 tracker=
-repository=https://github.com/janruzicka/ZoomToPSC-QGIS-Plugin
+repository=https://github.com/ruz76/qgis_zoomtopsc
 icon=zoomicon.png
 # experimental flag
 experimental=False
