@@ -12,6 +12,7 @@
 name=Zoom to Postcode in Czech Republic
 qgisMinimumVersion=2.0
 description=Zoom the map extent to postcode in the Czech Republic
+about=Zoom the map extent to postcode in the Czech Republic. Location of codes is based on RUIAN data.
 version=0.0.1
 author=Jan Ruzicka, Martin Konecny, Roman Siwek, Jana Kahankova, Lubos Csonka
 email=jan.ruzicka.vsb@gmail.com
@@ -22,10 +23,8 @@ email=jan.ruzicka.vsb@gmail.com
 
 
 # tags are comma separated with spaces allowed
-tags=postcode, opendata, Czech republic
-
-homepage=
-tracker=
+tags=postcode, opendata, Czech republic, RUIAN
+tracker=https://github.com/ruz76/qgis_zoomtopsc/issues
 repository=https://github.com/ruz76/qgis_zoomtopsc
 icon=zoomicon.png
 # experimental flag
