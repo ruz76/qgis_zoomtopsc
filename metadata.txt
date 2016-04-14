@@ -24,6 +24,7 @@ email=jan.ruzicka.vsb@gmail.com
 
 # tags are comma separated with spaces allowed
 tags=postcode, opendata, Czech republic, RUIAN
+homepage=https://github.com/ruz76/qgis_zoomtopsc
 tracker=https://github.com/ruz76/qgis_zoomtopsc/issues
 repository=https://github.com/ruz76/qgis_zoomtopsc
 icon=zoomicon.png

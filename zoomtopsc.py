@@ -93,7 +93,7 @@ class ZoomToPSC:
         self.iface.addPluginToMenu(u"&Zoom to Postcode", self.action)
 
     def addlayer(self):
-        layer = QgsVectorLayer(os.path.join(os.path.dirname(__file__), "cr_psc_centroids.shp"), "psc", "ogr")
+        layer = QgsVectorLayer(os.path.join(os.path.dirname(__file__), "data/cr_psc_centroids.shp"), "psc", "ogr")
         if not layer.isValid():
             print "Layer failed to load!"
         else:
@@ -136,7 +136,7 @@ class ZoomToPSC:
                 self.previous_searches.append(input_pcode.upper())
                 self.search_completer()
                 self.toolbar_search.setCompleter(self.completer)
-            file = open(os.path.join(os.path.dirname(__file__), "cr_psc_centroids.csv"), 'r')
+            file = open(os.path.join(os.path.dirname(__file__), "data/cr_psc_centroids.csv"), 'r')
             x = -1
             for line in file:
                 items = line.split(";")
