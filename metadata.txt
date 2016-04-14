@@ -1,0 +1,36 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=Zoom to Postcode in Czech Republic
+qgisMinimumVersion=2.0
+description=Zoom the map extent to postcode in the Czech Republic
+version=0.0.1
+author=Jan Ruzicka, Martin Konecny, Roman Siwek, Jana Kahankova, Lubos Csonka
+email=jan.ruzicka.vsb@gmail.com
+
+# end of mandatory metadata
+
+# Optional items:
+
+
+# tags are comma separated with spaces allowed
+tags=postcode, opendata, Czech republic
+
+homepage=
+tracker=
+repository=https://github.com/janruzicka/ZoomToPSC-QGIS-Plugin
+icon=zoomicon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
