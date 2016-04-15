@@ -187,9 +187,9 @@ class ZoomToPSC:
         self.marker = QgsVertexMarker(self.canvas)
         self.marker.setIconSize(15)
         self.marker.setPenWidth(2)
-        self.marker.setCenter(QgsPoint(int(x), int(y)))
+        self.marker.setCenter(QgsPoint(float(x), float(y)))
         self.canvas.refresh()
-        #self.canvas.extentsChanged.connect(self.remove_marker)
+        self.canvas.extentsChanged.connect(self.remove_marker)
 
     def remove_marker(self):
         # Remove vertex marker
